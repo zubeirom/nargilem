@@ -56,7 +56,7 @@ const navigation = {
             { name: 'Nargilem V2A Edelstahl', href: '#' },
             { name: 'Nargilem V2A Bronze', href: '#' },
             { name: 'Nargilem V2A MINI Edelstahl', href: '#' },
-            { name: 'Mehr anzeigen', href: '#' },
+            { name: 'Mehr anzeigen', href: '/shisha' },
           ],
         },
         {
@@ -100,6 +100,7 @@ const navigation = {
             { name: 'Nargilem Avantgarde Bowls Chrome', href: '#' },
             { name: 'Nargilem V2A Bowls Edelstahl', href: '#' },
             { name: 'Nargilem V2A Mini Bowls Edelstahl', href: '#' },
+            { name: 'Mehr anzeigen', href: '/shisha-bowls' },
           ],
         },
         {
@@ -115,9 +116,9 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Tabak', href: '#' },
-    { name: 'Ersatzteile', href: '#' },
-    { name: 'Zubehör', href: '#' },
+    { name: 'Tabak', href: '/tabak' },
+    { name: 'Ersatzteile', href: '/ersatzteile' },
+    { name: 'Zubehör', href: '/zubehoer' },
   ],
 }
 
@@ -315,7 +316,7 @@ export default function Nav() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">Nargilem</span>
                   <img className="h-8 w-auto" src="/logo.png" alt="" />
                 </a>
