@@ -24,6 +24,7 @@ import {
   PlusSmIcon,
   ViewGridIcon,
 } from '@heroicons/react/solid'
+import ProductList from '../components/ProductList'
 
 const sortOptions = [
   { name: 'Most Popular', href: '#', current: true },
@@ -32,12 +33,17 @@ const sortOptions = [
   { name: 'Price: Low to High', href: '#', current: false },
   { name: 'Price: High to Low', href: '#', current: false },
 ]
+
 const subCategories = [
-  { name: 'Totes', href: '#' },
-  { name: 'Backpacks', href: '#' },
-  { name: 'Travel Bags', href: '#' },
-  { name: 'Hip Bags', href: '#' },
-  { name: 'Laptop Sleeves', href: '#' },
+  { name: 'NPS Shisha Avantgarde Chrome', href: '#' },
+  { name: 'NPS Shisha Avantgarde Bronze', href: '#' },
+  { name: 'Nargilem V2A Edelstahl', href: '#' },
+  { name: 'Nargilem V2A Bronze', href: '#' },
+  { name: 'Nargilem V2A MINI Edelstahl', href: '#' },
+  { name: 'NPS Shisha Fragment Edition Chrome', href: '#' },
+  { name: 'NPS Shisha MINI Bowl Edition Chrome', href: '#' },
+  { name: 'NPS Shisha miQro', href: '#' },
+  { name: 'NPS Ultimate Circle', href: '#' },
 ]
 const filters = [
   //   {
@@ -217,7 +223,7 @@ export default function Shishas() {
               <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
-                    Sort
+                    Sortieren
                     <ChevronDownIcon
                       className="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                       aria-hidden="true"
@@ -350,9 +356,7 @@ export default function Shishas() {
 
               {/* Product grid */}
               <div className="lg:col-span-3">
-                {/* Replace with your content */}
-                <div className="border-4 border-dashed border-gray-200 rounded-lg h-96 lg:h-full" />
-                {/* /End replace */}
+                <ProductList />
               </div>
             </div>
           </section>
