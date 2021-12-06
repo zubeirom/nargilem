@@ -220,7 +220,7 @@ export default function Shishas() {
             </h1>
 
             <div className="flex items-center">
-              <Menu as="div" className="inline-block text-left">
+              <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
                     Sortieren

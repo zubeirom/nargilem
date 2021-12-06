@@ -28,7 +28,7 @@ const products = [
   {
     id: 2,
     name: 'Shisha Avantgarde Bronze Shiny Turquoise',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/ca/72/43/avan_turkisBronze_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 3,
     name: 'Shisha Avantgarde Shiny Clear',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/83/6a/b7/avan_clearChrome_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
@@ -58,7 +58,7 @@ const products = [
   {
     id: 5,
     name: 'Shisha Avantgarde Bronze Shiny Pink',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/ae/e5/3d/avan_pinkBronze_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
@@ -68,7 +68,7 @@ const products = [
   {
     id: 6,
     name: 'V2A Shiny Amber',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/46/23/51/amberChrome_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
@@ -78,7 +78,7 @@ const products = [
   {
     id: 7,
     name: 'V2A Shiny Clear',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/bc/6f/ab/shiny_shiny_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
