@@ -18,7 +18,7 @@ const products = [
   {
     id: 1,
     name: 'Shisha Avantgarde Shiny Amber',
-    href: '#',
+    href: '/products/1',
     imageSrc:
       'https://nargilem.com/media/image/85/d4/4f/avan_amberChrome_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
@@ -48,7 +48,7 @@ const products = [
   {
     id: 4,
     name: 'Shisha Avantgarde Black Gold Matt',
-    href: '#',
+    href: '/products/4',
     imageSrc:
       'https://nargilem.com/media/image/91/af/c5/avan_blackGlitterChrome_600x600.jpg',
     imageAlt: "Front of men's Basic Tee in black.",
