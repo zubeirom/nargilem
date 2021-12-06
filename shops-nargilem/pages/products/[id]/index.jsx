@@ -294,10 +294,8 @@ export default function Product() {
                     </svg>
                   </div>
                   <div>
-                    <p class="font-bold">Our privacy policy has changed</p>
-                    <p class="text-sm">
-                      Make sure you know how these changes affect you.
-                    </p>
+                    <p class="font-bold">Jetzt sparen</p>
+                    <p class="text-sm">Kaufe mehr als 10 und spare 30%!</p>
                   </div>
                 </div>
               </div>
