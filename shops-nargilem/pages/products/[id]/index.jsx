@@ -161,14 +161,25 @@ export default function Product() {
 
         {/* Image gallery */}
         <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-          <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
-            <Zoom>
-              <img
-                src={product.images[0].src}
-                alt={product.images[0].alt}
-                className="w-full h-full object-center object-cover"
-              />
-            </Zoom>
+          <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
+            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+              <Zoom>
+                <img
+                  src={product.images[3].src}
+                  alt={product.images[3].alt}
+                  className="w-full h-full object-center object-cover"
+                />
+              </Zoom>
+            </div>
+            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+              <Zoom>
+                <img
+                  src={product.images[4].src}
+                  alt={product.images[4].alt}
+                  className="w-full h-full object-center object-cover"
+                />
+              </Zoom>
+            </div>
           </div>
           <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
             <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
@@ -190,25 +201,14 @@ export default function Product() {
               </Zoom>
             </div>
           </div>
-          <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
-            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-              <Zoom>
-                <img
-                  src={product.images[3].src}
-                  alt={product.images[3].alt}
-                  className="w-full h-full object-center object-cover"
-                />
-              </Zoom>
-            </div>
-            <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-              <Zoom>
-                <img
-                  src={product.images[4].src}
-                  alt={product.images[4].alt}
-                  className="w-full h-full object-center object-cover"
-                />
-              </Zoom>
-            </div>
+          <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+            <Zoom>
+              <img
+                src={product.images[0].src}
+                alt={product.images[0].alt}
+                className="w-full h-full object-center object-cover"
+              />
+            </Zoom>
           </div>
         </div>
 
@@ -295,7 +295,9 @@ export default function Product() {
                   </div>
                   <div>
                     <p className="font-bold">Jetzt sparen</p>
-                    <p className="text-sm">Kaufe mehr als 10 und spare 30%!</p>
+                    <p className="text-sm">
+                      Kaufe noch 6 weitere und spare 245EUR!
+                    </p>
                   </div>
                 </div>
               </div>
