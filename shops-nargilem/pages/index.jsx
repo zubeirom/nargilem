@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 export default function Home() {
   return (
     <div className="relative bg-white overflow-hidden">
