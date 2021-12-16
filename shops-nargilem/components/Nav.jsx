@@ -280,7 +280,9 @@ export default function Nav() {
                                         {Array.from(Array(101).keys()).map(
                                           (i) => {
                                             if (i !== 0)
-                                              return <option>{i}</option>
+                                              return (
+                                                <option key={i}>{i}</option>
+                                              )
                                           }
                                         )}
                                       </select>
